@@ -1,0 +1,14 @@
+name: schedule_repository
+description: Dart package which manages the schedule domain.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  equatable: ^2.0.0
+  uuid: ^3.0.0
+  models:
+    path: ../models
+  api_client:
+    path: ../api_client

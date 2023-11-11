@@ -1,0 +1,12 @@
+name: models
+description: Dart package with models.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  equatable: ^2.0.0
+  intl: ^0.18.1
+dev_dependencies:
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
